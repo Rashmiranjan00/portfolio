@@ -4,7 +4,8 @@
   "description": "Responsive Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/CSS/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/CSS/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Rashmiranjan Pradhan",
   "license": "MIT",
