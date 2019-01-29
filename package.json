@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio",
   "main": "index.js",
+  "homepage": "https://Rashmiranjan00.github.io/Portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/CSS/ --recursive",
     "deploy": "gh-pages -d dist"
@@ -10,8 +11,7 @@
   "author": "Rashmiranjan Pradhan",
   "license": "MIT",
   "dependencies": {
-    "gulp-wait": "0.0.2",
-    "node-sass": "^4.11.0",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
   }
 }
