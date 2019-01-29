@@ -11,9 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "gulp-wait": "0.0.2",
-    "node-sass": "^4.11.0"
-  },
-  "devDependencies": {
+    "node-sass": "^4.11.0",
     "gh-pages": "^2.0.1"
   }
 }
