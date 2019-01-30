@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio",
   "main": "index.js",
-  "homepage": "https://Rashmiranjan00.github.io/Portfolio",
+  "homepage": "https://Rashmiranjan00.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/CSS/ --recursive",
     "deploy": "gh-pages -d dist"
