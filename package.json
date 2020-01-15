@@ -6,11 +6,13 @@
   "homepage": "https://Rashmiranjan00.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/CSS/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start": "node server.js"
   },
   "author": "Rashmiranjan Pradhan",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.13.0"
   }
